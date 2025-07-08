@@ -4,7 +4,8 @@ This project is about recognizing human emotions from facial expressions using a
 
 ##  Dataset
 
-- The dataset contains grayscale facial images categorized into 7 emotion classes:
+- The dataset is based on the **FER-2013** dataset from Kaggle.
+- It contains grayscale facial images categorized into 7 emotion classes:
   - Angry
   - Disgust
   - Fear
@@ -12,9 +13,15 @@ This project is about recognizing human emotions from facial expressions using a
   - Sad
   - Surprise
   - Neutral
-- It is organized into two main folders:
-  - `train/` - for training data
-  - `validation/` - for validation data
+- Images are 48x48 pixels in grayscale format.
+- Dataset is organized into two folders:
+  - `train/` – training images
+  - `validation/` – validation images
+
+🔗 **Dataset Link**: [FER-2013 Facial Emotion Recognition (Kaggle)](https://www.kaggle.com/datasets/msambare/fer2013)
+
+---
+
 
 ## 🛠 Tools and Libraries Used
 
